@@ -1,0 +1,71 @@
+<form action="/action_page.html">
+    <fieldset>
+        <legend><b>Manutenção de Usuários do Sistema Interno</b></legend>
+
+        <p>
+            <b>Login:</b><br>
+            <input type="text" name="login" id="login">
+        </p>
+
+        <p>
+            <b>Senha:</b><br>
+            <input type="password" name="senha" id="senha">
+        </p>
+
+        <p>
+            <b>Status:</b><br>
+            <select name="status" id="status">
+                <option value="inativo">Inativo</option>
+                <option value="ativo">Ativo</option>
+            </select>
+        </p>
+
+        <p>
+            <b>Tipo:</b><br>
+            <input type="radio" id="tecnico" name="tipo" value="tecnico">
+            <label for="tecnico">Técnico</label> 
+            <input type="radio" id="professor" name="tipo" value="professor">
+            <label for="professor">Professor</label> 
+            <input type="radio" id="aluno" name="tipo" value="aluno">
+            <label for="aluno">Aluno</label>
+        </p>
+
+        <p>
+            <b>Data Criação:</b><br>
+            <input type="date" name="data_criacao" id="data_criacao">
+        </p>
+
+        <p>
+            <b>Perfil:</b><br>
+            <input type="radio" id="convidado" name="perfil" value="convidado">
+            <label for="convidado">Convidado</label> 
+            <input type="radio" id="administrador" name="perfil" value="administrador">
+            <label for="administrador">Administrador</label>
+        </p>
+
+        <p>
+            <b>Observações:</b><br>
+            <textarea name="observacoes" id="observacoes" rows="5" cols="40"></textarea>
+        </p>
+
+        <p>
+            <b>Módulos:</b><br>
+            <input type="checkbox" id="compras" name="modulos" value="compras">
+            <label for="compras">Compras</label> 
+            <input type="checkbox" id="biblioteca" name="modulos" value="biblioteca">
+            <label for="biblioteca">Biblioteca</label> 
+            <input type="checkbox" id="academico" name="modulos" value="academico">
+            <label for="academico">Acadêmico</label><br>
+            
+            <input type="checkbox" id="documentacao" name="modulos" value="documentacao">
+            <label for="documentacao">Documentação</label> 
+            <input type="checkbox" id="rh" name="modulos" value="rh">
+            <label for="rh">Recursos Humanos</label>
+        </p>
+
+        <p>
+            <input type="submit" value="Salvar">
+            <input type="button" value="Excluir">
+        </p>
+    </fieldset>
+</form>

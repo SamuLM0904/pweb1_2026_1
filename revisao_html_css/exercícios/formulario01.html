@@ -1,0 +1,69 @@
+<form action="/action_page.html">
+    <fieldset>
+        <legend><b>Formulário Matricula de Curso</b></legend>
+        
+        <p>
+            <label>Primeiro nome:</label><br>
+            <input type="text" name="primeiro_nome">
+        </p>
+        
+        <p>
+            <label>Sobrenome:</label><br>
+            <input type="text" name="sobrenome">
+        </p>
+        
+        <p>
+            <b>Curso:</b><br>
+            <input type="radio" name="curso" value="tecnico" id="tecnico"> <label for="tecnico">Técnico em Informática</label><br>
+            <input type="radio" name="curso" value="ads" id="ads"> <label for="ads">Graduação - Análise e Desenvolvimento de Sistemas</label><br>
+            <input type="radio" name="curso" value="web" id="web"> <label for="web">Profissionalizante - Programação Web</label>
+        </p>
+        
+        <p>
+            <b>Linguagens de programação de sua preferência:</b><br>
+            <input type="checkbox" name="linguagem" value="php" id="php"> <label for="php">PHP</label><br>
+            <input type="checkbox" name="linguagem" value="java" id="java"> <label for="java">Java</label><br>
+            <input type="checkbox" name="linguagem" value="python" id="python"> <label for="python">Python</label>
+        </p>
+        
+        <p>
+            <b>Escolha um turno:</b><br>
+            <select name="turno">
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select>
+        </p>
+        
+       <p>
+    <b>Escolha a unidade mais próxima a você:</b><br>
+    <input list="unidades" name="unidade" placeholder="Selecione um Câmpus">
+    <datalist id="unidades">
+        <option value="Câmpus Araranguá"></option>
+        <option value="Câmpus Caçador"></option>
+        <option value="Câmpus Canoinhas"></option>
+        <option value="Câmpus Chapecó"></option>
+        <option value="Câmpus Criciúma"></option>
+        <option value="Câmpus Florianópolis"></option>
+        <option value="Câmpus Florianópolis-Continente"></option>
+        <option value="Câmpus Garopaba"></option>
+        <option value="Câmpus Gaspar"></option>
+        <option value="Câmpus Itajaí"></option>
+        <option value="Câmpus Jaraguá do Sul-Centro"></option>
+        <option value="Câmpus Jaraguá do Sul-Rau"></option>
+        <option value="Câmpus Joinville"></option>
+        <option value="Câmpus Lages"></option>
+        <option value="Câmpus Palhoça Bilíngue"></option>
+        <option value="Câmpus São Carlos"></option>
+        <option value="Câmpus São José"></option>
+        <option value="Câmpus São Lourenço do Oeste"></option>
+        <option value="Câmpus São Miguel do Oeste"></option>
+        <option value="Câmpus Tubarão"></option>
+        <option value="Câmpus Urupema"></option>
+        <option value="Câmpus Xanxerê"></option>
+    </datalist>
+</p>    
+        
+        <input type="submit" value="Enviar">
+    </fieldset>
+</form>
